@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 body, html {
   font-family: 'Source Sans Pro', sans-serif;
@@ -10,5 +11,303 @@ body, html {
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; }
+  .header .myNavbar {
+    padding: 0 10px; }
+    .header .myNavbar .navbar-toggler:focus {
+      outline: transparent; }
+
+#navMenu .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  letter-spacing: 1px;
+  padding: 0 12px; }
+  @media screen and (max-width: 991px) {
+    #navMenu .navbar-nav .nav-item .nav-link {
+      padding: 10px 0;
+      border-top: 0.1px solid #ece8e8; } }
+#navMenu .navbar-nav .nav-item:hover .nav-link {
+  color: #d6b161;
+  background-color: transparent; }
+#navMenu .navbar-nav .nav-item.active .nav-link {
+  color: #d6b161; }
+
+.main-slider {
+  position: relative; }
+  .main-slider .carousel-inner .carousel-item {
+    height: 700px; }
+    @media screen and (max-width: 840px) {
+      .main-slider .carousel-inner .carousel-item img {
+        height: 80%; } }
+    .main-slider .carousel-inner .carousel-item .carousel-caption {
+      width: 600px;
+      color: #333;
+      top: 40%;
+      left: 11%;
+      letter-spacing: 1px;
+      transition: all .5s; }
+      .main-slider .carousel-inner .carousel-item .carousel-caption p {
+        color: #7e7e7e; }
+      .main-slider .carousel-inner .carousel-item .carousel-caption .carousel-caption--white {
+        color: #fff; }
+      @media screen and (max-width: 991px) {
+        .main-slider .carousel-inner .carousel-item .carousel-caption {
+          top: 30%;
+          transition: all .5s; } }
+      @media screen and (max-width: 680px) {
+        .main-slider .carousel-inner .carousel-item .carousel-caption {
+          font-size: 13px;
+          padding-right: 320px; } }
+      .main-slider .carousel-inner .carousel-item .carousel-caption h1 {
+        padding: 5px 0 10px 0; }
+  .main-slider .carousel-indicators li {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%; }
+
+.about {
+  margin-top: 100px; }
+  @media screen and (max-width: 991px) {
+    .about {
+      margin-top: -85px; } }
+  .about .about__heading h3 {
+    letter-spacing: 1px; }
+  .about .about__heading p {
+    letter-spacing: 1px;
+    width: 60%;
+    margin: 30px auto;
+    color: #7e7e7e; }
+    @media screen and (max-width: 991px) {
+      .about .about__heading p {
+        width: 72%; } }
+    @media screen and (max-width: 768px) {
+      .about .about__heading p {
+        width: 78%; } }
+  .about .about__content {
+    margin-top: 90px; }
+    .about .about__content .about__item {
+      border: 1px solid #e9e9e9;
+      border-radius: 5px;
+      margin: 0 10px;
+      padding: 60px 20px 30px 30px;
+      position: relative; }
+      .about .about__content .about__item:hover i {
+        background-color: #d6b161; }
+      .about .about__content .about__item i {
+        background-color: #222222;
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 60px;
+        box-shadow: 0 0 0 10px #fff;
+        font-size: 30px;
+        position: absolute;
+        top: -30px;
+        left: 30px;
+        transition: all 0.4s; }
+      .about .about__content .about__item h4 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #333;
+        letter-spacing: 1px;
+        margin-bottom: 20px; }
+      .about .about__content .about__item p {
+        color: #7e7e7e;
+        letter-spacing: 1px; }
+      @media screen and (max-width: 991px) {
+        .about .about__content .about__item {
+          margin: 30px 0; } }
+
+.skills {
+  background-image: url(../images/4.jpg);
+  width: 100%;
+  background-position: 50% 50%;
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  margin-top: 100px;
+  position: relative; }
+  .skills .skills__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+    @media screen and (max-width: 840px) {
+      .skills .skills__overlay {
+        background-color: transparent; } }
+  .skills .skills__left h3 {
+    font-weight: 400;
+    letter-spacing: 6px;
+    line-height: 700px;
+    text-align: center; }
+    @media screen and (max-width: 991px) {
+      .skills .skills__left h3 {
+        line-height: 200px; } }
+  .skills .skills__right .skills__content {
+    padding-left: 50px;
+    margin-top: 25%;
+    text-align: left; }
+    @media screen and (max-width: 991px) {
+      .skills .skills__right .skills__content {
+        margin-top: 0;
+        padding-left: 10px;
+        padding-right: 10px; } }
+    .skills .skills__right .skills__content h4 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      letter-spacing: 1.5px;
+      margin-bottom: 30px; }
+    .skills .skills__right .skills__content p {
+      line-height: 2; }
+    .skills .skills__right .skills__content .skills__progress {
+      margin-top: 80px; }
+      .skills .skills__right .skills__content .skills__progress .skills__progress-item {
+        background-color: #606060;
+        height: 25px;
+        position: relative;
+        margin: 50px 0; }
+        .skills .skills__right .skills__content .skills__progress .skills__progress-item .skills__progress-bar {
+          font-size: 11px;
+          font-weight: 300;
+          color: #333;
+          letter-spacing: 1px;
+          background-color: #fff;
+          height: 100%;
+          opacity: 0;
+          line-height: 25px;
+          padding-left: 10px;
+          position: relative; }
+@keyframes animate-positive {
+  0% {
+    width: 0%; } }
+          .skills .skills__right .skills__content .skills__progress .skills__progress-item .skills__progress-bar .skills__progress-value {
+            position: absolute;
+            top: -30px;
+            right: -5px;
+            background-color: #7e7e7e;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 30px;
+            min-width: 35px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 300;
+            color: #fff;
+            letter-spacing: 1px; }
+            .skills .skills__right .skills__content .skills__progress .skills__progress-item .skills__progress-bar .skills__progress-value::after {
+              content: "";
+              background-color: #7e7e7e;
+              width: 5px;
+              height: 5px;
+              display: block;
+              position: absolute;
+              bottom: -2px;
+              left: 15px;
+              transform: rotate(45deg); }
+        .skills .skills__right .skills__content .skills__progress .skills__progress-item .skills__progress--80 {
+          width: 80%; }
+        .skills .skills__right .skills__content .skills__progress .skills__progress-item .skills__progress--90 {
+          width: 90%; }
+        .skills .skills__right .skills__content .skills__progress .skills__progress-item .skills__progress--75 {
+          width: 75%; }
+
+.team {
+  margin-top: 100px; }
+  .team .team__heading h3 {
+    letter-spacing: 1px; }
+  .team .team__heading p {
+    letter-spacing: 1px;
+    width: 60%;
+    margin: 30px auto;
+    color: #7e7e7e; }
+  .team .team__content {
+    margin-top: 100px; }
+    .team .team__content .team__item {
+      margin: 10px;
+      position: relative; }
+      .team .team__content .team__item:hover .team__details-infor {
+        opacity: 1; }
+        .team .team__content .team__item:hover .team__details-infor .team__desk {
+          transform: translateY(0);
+          transition: all 0.5s; }
+          .team .team__content .team__item:hover .team__details-infor .team__desk h4,
+          .team .team__content .team__item:hover .team__details-infor .team__desk p {
+            opacity: 1; }
+        .team .team__content .team__item:hover .team__details-infor .team__socials i {
+          transform: translateX(0);
+          transition: all 0.5s;
+          opacity: 1; }
+      .team .team__content .team__item .team__img {
+        position: relative; }
+        .team .team__content .team__item .team__img .team__basic-infor {
+          position: absolute;
+          right: 0px;
+          bottom: 30px;
+          width: 70%;
+          padding: 10px 20px;
+          text-align: right;
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.7); }
+          .team .team__content .team__item .team__img .team__basic-infor h5 {
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            letter-spacing: 2px; }
+          .team .team__content .team__item .team__img .team__basic-infor span {
+            font-size: 12px;
+            font-weight: 400;
+            color: #e9e9e9;
+            letter-spacing: 2px; }
+      .team .team__content .team__item .team__details-infor {
+        color: #333;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 20px solid rgba(0, 0, 0, 0.1);
+        padding: 10px 10px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.5s; }
+        .team .team__content .team__item .team__details-infor .team__desk {
+          transform: translateY(-55px); }
+          .team .team__content .team__item .team__details-infor .team__desk h4 {
+            font-size: 18px;
+            font-weight: 300;
+            color: #333;
+            letter-spacing: 2px;
+            opacity: 0; }
+          .team .team__content .team__item .team__details-infor .team__desk p {
+            opacity: 0;
+            line-height: 2;
+            width: 78%;
+            color: #7e7e7e;
+            margin: 40px auto; }
+        .team .team__content .team__item .team__details-infor .team__socials {
+          position: absolute;
+          bottom: 30px;
+          left: 50%;
+          transform: translateX(-50%);
+          cursor: pointer; }
+          .team .team__content .team__item .team__details-infor .team__socials i {
+            margin: 0 10px;
+            opacity: 0;
+            transform: translateY(50px); }
+            .team .team__content .team__item .team__details-infor .team__socials i:hover {
+              color: #d6b161; }
 
 /*# sourceMappingURL=index.css.map */

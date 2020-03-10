@@ -1,5 +1,25 @@
-@mixin text-style($fs, $fw, $color) {
-    font-size: $fs;
-    font-weight: $fw;
-    color: $color;
+@mixin text-style($fs, $fw, $color, $ls) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+  letter-spacing: $ls;
+}
+
+@mixin text-style-hover($color, $bg-color) {
+  color: $color;
+  background-color: $bg-color;
+}
+
+@mixin border-style($size-border, $type-border, $color, $bd-radius ) {
+  border: $size-border $type-border $color;
+  border-radius: $bd-radius;
+}
+
+@mixin reponds-to($breakpoint) {
+  @if (map-has-key($map: $breakpoints, $key: $breakpoint)) {
+    $value: map-get($map: $breakpoints, $key: $breakpoint);
+    @media screen and (max-width: $value) {
+      @content;
+    }
+  }
 }

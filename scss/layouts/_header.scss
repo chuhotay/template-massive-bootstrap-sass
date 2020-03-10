@@ -1,0 +1,41 @@
+// Header
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  .myNavbar {
+    padding: 0 $pd-2;
+    .navbar-toggler {
+      &:focus {
+        outline: transparent;
+      }
+    }
+  }
+}
+
+#navMenu {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        @include text-style($fs-2, $fw-4, $color-black, 1px);
+        padding: 0 12px;
+        @include reponds-to('large') {
+          padding: $pd-2 0;
+          border-top: 0.1px solid #ece8e8;
+        }
+      }
+      &:hover {
+        .nav-link {
+          @include text-style-hover($color-yellow, transparent);
+        }
+      }
+      &.active {
+        .nav-link {
+          color: $color-yellow;
+        }
+      }
+    }
+  }
+}

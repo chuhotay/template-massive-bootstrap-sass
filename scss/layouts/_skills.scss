@@ -1,0 +1,107 @@
+.skills {
+  background-image: url(../images/4.jpg);
+  width: 100%;
+  background-position: 50% 50%;
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  color: $color-white;
+  margin-top: $mg-6;
+  position: relative;
+  .skills__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    @include reponds-to("mid-large") {
+      background-color: transparent;
+    }
+  }
+  .skills__left {
+    h3 {
+      font-weight: $fw-4;
+      letter-spacing: 6px;
+      line-height: 700px;
+      text-align: center;
+      @include reponds-to("large") {
+        line-height: 200px;
+      }
+    }
+  }
+  .skills__right {
+    .skills__content {
+      padding-left: $pd-5 + 20;
+      margin-top: 25%;
+      @include reponds-to("large") {
+        margin-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      text-align: left;
+      h4 {
+        @include text-style($fs-0 + 3, $fw-4, $color-white, 1.5px);
+        margin-bottom: $mg-5;
+      }
+      p {
+        line-height: 2;
+      }
+      .skills__progress {
+        margin-top: $mg-6 - 20;
+        .skills__progress-item {
+          background-color: #606060;
+          height: 25px;
+          position: relative;
+          margin: $mg-5 + 20 0;
+          .skills__progress-bar {
+            @include text-style($fs-1 - 2, $fw-3, $color-black, $ls-0);
+            background-color: $color-white;
+            height: 100%;
+            opacity: 0;
+            line-height: 25px;
+            padding-left: $pd-2;
+            position: relative;
+            @keyframes animate-positive {
+              0% {
+                width: 0%;
+              }
+            }
+            .skills__progress-value {
+              position: absolute;
+              top: -30px;
+              right: -5px;
+              background-color: $color-gray;
+              height: 20px;
+              line-height: 20px;
+              border-radius: 30px;
+              min-width: 35px;
+              text-align: center;
+              @include text-style($fs-1 - 2, $fw-3, $color-white, $ls-0);
+              &::after {
+                content: "";
+                background-color: $color-gray;
+                width: 5px;
+                height: 5px;
+                display: block;
+                position: absolute;
+                bottom: -2px;
+                left: 15px;
+                transform: rotate(45deg);
+              }
+            }
+          }
+          .skills__progress--80 {
+            width: 80%;
+          }
+          .skills__progress--90 {
+            width: 90%;
+          }
+          .skills__progress--75 {
+            width: 75%;
+          }
+        }
+      }
+    }
+  }
+}

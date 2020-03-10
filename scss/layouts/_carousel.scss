@@ -1,0 +1,50 @@
+.main-slider {
+  position: relative;
+  .carousel-inner {
+    .carousel-item {
+      height: 700px;
+      @include reponds-to('mid-large') {
+          img {
+              height: 80%;
+          }
+      }
+      .carousel-caption {
+        width: 600px;
+        color: $color-black;
+        top: 40%;
+        left: 11%;
+        letter-spacing: $ls-0;
+        transition: all .5s;
+
+        p {
+          color: $color-gray;
+        }
+
+        .carousel-caption--white {
+          color: $color-white;
+        }
+
+        @include reponds-to('large') {
+            top: 30%;
+            transition: all .5s;
+        }
+
+        @include reponds-to('mid-medium') {
+            font-size: $fs-1;
+            padding-right: 320px;
+        }
+
+        h1 {
+          padding: $pd-0 0 $pd-2 0;
+        }
+      }
+    }
+  }
+  .carousel-indicators {
+    li {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+    }
+  }
+}
