@@ -15,11 +15,11 @@ $color-black: #333;
 $color-gray: #7e7e7e;
 $color-gray-1: #e9e9e9;
 $color-white: #fff;
-$color-yellow:#d6b161; 
+$color-yellow: #d6b161;
 
 // padding variables
 $pd-0: 5px;
-$pd-1: 7px; 
+$pd-1: 7px;
 $pd-2: 10px;
 $pd-3: 15px;
 $pd-4: 20px;
@@ -28,7 +28,7 @@ $pd-6: 100px;
 
 // margin variables
 $mg-0: 5px;
-$mg-1: 7px; 
+$mg-1: 7px;
 $mg-2: 10px;
 $mg-3: 15px;
 $mg-4: 20px;
@@ -39,11 +39,11 @@ $mg-6: 100px;
 $ls-0: 1px;
 
 //break points
-$breakpoints:(
-    'extra-large': 1200px,
-    'large' : 991px,
-    'mid-large' : 840px,
-    'medium' : 768px,
-    'mid-medium' : 680px,
-    'small' : 576px,
-)
+$breakpoints: (
+  "extra-large": 1230px,
+  "large": 991px,
+  "mid-large": 840px,
+  "medium": 768px,
+  "mid-medium": 680px,
+  "small": 576px
+);

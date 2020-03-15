@@ -9,6 +9,9 @@
       width: 60%;
       margin: $mg-5 auto;
       color: $color-gray;
+      @include reponds-to('large') {
+        width: 80%;
+      }
     }
   }
   .team__content {
@@ -38,8 +41,11 @@
       }
       .team__img {
         position: relative;
-        @include reponds-to("large") {
-            
+        img {
+          @include reponds-to('large') {
+            width: 100%;
+            height: auto;
+          }
         }
         .team__basic-infor {
           position: absolute;
@@ -70,6 +76,9 @@
         height: 100%;
         opacity: 0;
         transition: all 0.5s;
+        @include reponds-to('large') { 
+          padding-top: $pd-6 + 70;
+        }
         .team__desk {
           transform: translateY(-55px);
           h4 {

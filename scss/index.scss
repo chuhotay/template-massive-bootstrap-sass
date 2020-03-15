@@ -2,8 +2,11 @@
 @import './helpers/mixin';
 @import './base/reset';
 
+@import './components/button';
+
 @import './layouts/header';
 @import './layouts/carousel';
 @import './layouts/about';
 @import './layouts/skills';
 @import './layouts/team';
+@import './layouts/portfolio';

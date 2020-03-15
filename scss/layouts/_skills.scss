@@ -2,7 +2,7 @@
   background-image: url(../images/4.jpg);
   width: 100%;
   background-position: 50% 50%;
-  height: 700px;
+  padding: $pd-6 0;
   background-size: cover;
   background-attachment: fixed;
   color: $color-white;
@@ -20,13 +20,15 @@
     }
   }
   .skills__left {
+    text-align: center;
     h3 {
       font-weight: $fw-4;
       letter-spacing: 6px;
-      line-height: 700px;
-      text-align: center;
+      margin-top: 50%;
       @include reponds-to("large") {
-        line-height: 200px;
+        margin-top: $pd-4;
+        margin-bottom: $pd-6;
+        line-height: 1.5;
       }
     }
   }

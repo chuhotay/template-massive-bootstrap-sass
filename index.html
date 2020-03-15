@@ -18,9 +18,12 @@
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&display=swap&subset=vietnamese"
         rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Lightbox css -->
+    <link rel="stylesheet" href="./css/lightbox.min.css">
 
     <!-- Main css -->
     <link rel="stylesheet" href="./css/index.css">
@@ -275,7 +278,188 @@
     <!-- End Team -->
 
     <!-- Portfolio -->
-    <section class="portfolio"></section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio__heading container text-center">
+            <h3>PORTFOLIO</h3>
+            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis
+                fugats vitaes nemo minima rerums unsers sadips amets.</p>
+        </div>
+        <div class="portfolio_nav px-4">
+            <ul class="nav justify-content-center" id="portfolioTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all"
+                        aria-selected="true">ALL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="printing-tab" data-toggle="tab" href="#printing" role="tab"
+                        aria-controls="printing" aria-selected="false">PRINTING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="web"
+                        aria-selected="false">WEB</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="illustration-tab" data-toggle="tab" href="#illustration" role="tab"
+                        aria-controls="illustration" aria-selected="false">ILLUSTRATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="media-tab" data-toggle="tab" href="#media" role="tab" aria-controls="media"
+                        aria-selected="false">MEDIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="crafts-tab" data-toggle="tab" href="#crafts" role="tab"
+                        aria-controls="crafts" aria-selected="false">CRAFTS</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="portfolioTabContent">
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/01.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/01.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/02.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/02.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/03.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/03.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/04.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/04.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/05.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/05.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/06.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/06.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/07.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/07.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/08.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/08.jpg" data-lightbox="gallery">
+                                        <i class="fa fa-search"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="printing" role="tabpanel" aria-labelledby="printing-tab">b</div>
+                <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">c</div>
+                <div class="tab-pane fade" id="illustration" role="tabpanel" aria-labelledby="illustration-tab">d</div>
+                <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="media-tab">e</div>
+                <div class="tab-pane fade" id="crafts" role="tabpanel" aria-labelledby="crafts-tab">f</div>
+            </div>
+        </div>
+        <div class="portfolio__banner">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="portfolio__left text-white text-left">
+                        <h6>ARE YOU IMPRESSED WITH OUR CREATIVE WORK?</h6>
+                        <h3>START <span style="color: #d6b161;">BUILDING YOUR PROJECT</span> WITH MASSIVE</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfoli__right text-center">
+                        <button class="btn--black-opacity">PURCHASE NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End Portfolio -->
 
     <!-- Services -->
@@ -344,6 +528,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- Lightbox js -->
+    <script src="./js/lightbox.min.js"></script>
 
     <!-- Main js -->
     <script src="./js/index.js"></script>
