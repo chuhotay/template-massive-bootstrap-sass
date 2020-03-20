@@ -45,20 +45,24 @@ $('.countup').countUp({
 
 // Handle carousel
 $('.owl-carousel').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayHoverPause:true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:2,
+    loop: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 2,
         },
-        600:{
-            items:3,
+        600: {
+            items: 3,
         },
-        1000:{
-            items:6,
+        1000: {
+            items: 6,
         }
     }
 })
 // End handle carousel
+
+// Config Wowjs
+new WOW().init();
+// End config Wowjs
