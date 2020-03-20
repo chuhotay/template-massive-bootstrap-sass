@@ -35,3 +35,30 @@ $(document).ready(function () {
     );
 });
 // End handle progress-bar skills
+
+// Handle count up
+$('.countup').countUp({
+    'time': 1100,
+    'delay': 10
+});
+// End handle count up
+
+// Handle carousel
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:6,
+        }
+    }
+})
+// End handle carousel

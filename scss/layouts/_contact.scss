@@ -1,0 +1,28 @@
+.contact {
+  background-image: url(../images/15.jpg);
+  width: 100%;
+  background-position: 50% 50%;
+  padding: $pd-6 + 20 0;
+  background-size: cover;
+  background-attachment: fixed;
+  color: $color-white;
+  margin-top: $mg-6;
+  margin-bottom: $mg-6;
+  .contact__contain {
+      .contact__item {
+          margin: 0 $mg-5 + 45;
+          @include reponds-to('medium') {
+              margin-bottom: $mg-5 + 30;
+          }
+          .contact__icon {
+              font-size: 36px;
+          }
+          .contact__infor {
+              h4 {
+                  margin-bottom: $mg-4;
+                  margin-top: $mg-5;
+              }
+          }
+      }
+  }
+}

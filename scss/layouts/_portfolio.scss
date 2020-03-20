@@ -79,10 +79,10 @@
           a {
             text-decoration: none;
             i {
-              font-size: $fs-0 + 5;
+              font-size: 35px;
               color: $color-gray;
+              line-height: 2;
               padding-bottom: 30px;
-              transform: translateY(-30px);
               transition: all 0.5s;
               cursor: pointer;
             }

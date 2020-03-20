@@ -1,0 +1,41 @@
+.counter {
+  background-image: url(../images/7.jpg);
+  width: 100%;
+  background-position: 50% 50%;
+  padding: $pd-6 + 100 0;
+  background-size: cover;
+  background-attachment: fixed;
+  color: $color-white;
+  margin-top: $mg-6;
+  margin-bottom: $mg-6;
+
+  .counter__content {
+    .counter__item {
+      @include reponds-to("large") {
+        padding-bottom: $pd-6 - 20;
+        padding-left: $pd-5;
+      }
+      .counter__icon {
+        font-size: 36px;
+        float: left;
+        position: relative;
+        padding-right: 75px;
+        &::after {
+          content: "";
+          width: 1px;
+          height: 80px;
+          background-color: rgba(255, 255, 255, 0.4);
+          position: absolute;
+          top: 0;
+          left: 75px;
+          transform: rotate(30deg);
+        }
+      }
+      .counter__infor {
+        span {
+          letter-spacing: $ls-0;
+        }
+      }
+    }
+  }
+}

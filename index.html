@@ -9,14 +9,17 @@
 
     <link rel="icon" href="./images/favicon.png">
 
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-
     <!-- Google font -->
     <link
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&display=swap&subset=vietnamese"
         rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Linear icon -->
+    <link rel="stylesheet" href="./css/icon.css">
+    <!-- Linear icon -->
 
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -24,6 +27,9 @@
 
     <!-- Lightbox css -->
     <link rel="stylesheet" href="./css/lightbox.min.css">
+
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
 
     <!-- Main css -->
     <link rel="stylesheet" href="./css/index.css">
@@ -119,11 +125,12 @@
             <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats
                 vitaes nemo minima rerums unsers sadips amets.</p>
         </div>
-
         <div class="row about__content">
             <div class="col-lg-4">
                 <div class="about__item">
-                    <i class="fa fa-pencil-ruler"></i>
+                    <div class="about__icon">
+                        <i class="icon-tools2"></i>
+                    </div>
                     <h4>MODERN DESIGN</h4>
                     <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi
                         eleifend.</p>
@@ -131,7 +138,9 @@
             </div>
             <div class="col-lg-4">
                 <div class="about__item">
-                    <i class="fa fa-tablet-alt"></i>
+                    <div class="about__icon">
+                        <i class="icon-mobile"></i>
+                    </div>
                     <h4>BOOTSTRAP</h4>
                     <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi
                         eleifend.</p>
@@ -139,7 +148,9 @@
             </div>
             <div class="col-lg-4">
                 <div class="about__item">
-                    <i class="fa fa-bong"></i>
+                    <div class="about__icon">
+                        <i class="icon-wine"></i>
+                    </div>
                     <h4>CLEAN CODE</h4>
                     <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi
                         eleifend.</p>
@@ -219,9 +230,9 @@
                                     a challenge and learning as fast as digital is changing.</p>
                             </div>
                             <div class="team__socials">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-google-plus"></i>
                             </div>
                         </div>
                     </div>
@@ -242,9 +253,9 @@
                                     a challenge and learning as fast as digital is changing.</p>
                             </div>
                             <div class="team__socials">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-google-plus"></i>
                             </div>
                         </div>
                     </div>
@@ -265,9 +276,9 @@
                                     a challenge and learning as fast as digital is changing.</p>
                             </div>
                             <div class="team__socials">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-google-plus-g"></i>
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-google-plus"></i>
                             </div>
                         </div>
                     </div>
@@ -284,7 +295,7 @@
             <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis
                 fugats vitaes nemo minima rerums unsers sadips amets.</p>
         </div>
-        <div class="portfolio_nav px-4">
+        <div class="portfolio_nav mx-4">
             <ul class="nav justify-content-center" id="portfolioTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all"
@@ -320,7 +331,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/01.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -336,7 +347,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/02.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -351,7 +362,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/03.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -366,7 +377,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/04.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -381,7 +392,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/05.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -396,7 +407,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/06.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -411,7 +422,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/07.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -426,7 +437,7 @@
 
                                 <div class="portfolio__hover">
                                     <a href="./images/08.jpg" data-lightbox="gallery">
-                                        <i class="fa fa-search"></i>
+                                        <i class="icon-basic_magnifier"></i>
                                         <div class="portfolio__desc">
                                             <h4>LIGHTBOX VIEW</h4>
                                             <p>CATEGORY</p>
@@ -437,11 +448,495 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="printing" role="tabpanel" aria-labelledby="printing-tab">b</div>
-                <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">c</div>
-                <div class="tab-pane fade" id="illustration" role="tabpanel" aria-labelledby="illustration-tab">d</div>
-                <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="media-tab">e</div>
-                <div class="tab-pane fade" id="crafts" role="tabpanel" aria-labelledby="crafts-tab">f</div>
+                <div class="tab-pane fade" id="printing" role="tabpanel" aria-labelledby="printing-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/01.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/01.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/02.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/02.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/03.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/03.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/04.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/04.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/05.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/05.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/01.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/01.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/03.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/03.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/05.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/05.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/06.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/06.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/07.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/07.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="illustration" role="tabpanel" aria-labelledby="illustration-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/02.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/02.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/04.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/04.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/05.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/05.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/06.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/06.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/08.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/08.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="media-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/01.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/01.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/02.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/02.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/03.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/03.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/04.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/04.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/05.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/05.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/06.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/06.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/07.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/07.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/08.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/08.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="crafts" role="tabpanel" aria-labelledby="crafts-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/01.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/01.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/02.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/02.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/03.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/03.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/04.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/04.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/05.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/05.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/06.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/06.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/07.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/07.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 portfolio__item">
+                            <div class="portfolio__content">
+                                <img src="./images/08.jpg" alt="">
+
+                                <div class="portfolio__hover">
+                                    <a href="./images/08.jpg" data-lightbox="gallery">
+                                        <i class="icon-basic_magnifier"></i>
+                                        <div class="portfolio__desc">
+                                            <h4>LIGHTBOX VIEW</h4>
+                                            <p>CATEGORY</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="portfolio__banner">
@@ -463,60 +958,704 @@
     <!-- End Portfolio -->
 
     <!-- Services -->
-    <section class="services"></section>
+    <section class="services text-center container" id="services">
+        <div class="services__heading">
+            <h3>MASSIVE SERVICES</h3>
+            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis
+                fugats vitaes nemo minima rerums unsers sadips amets.</p>
+        </div>
+        <div class="services__content">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="services__item services__item1--border">
+                        <div class="services__icon">
+                            <i class="icon-lightbulb"></i>
+                        </div>
+                        <h4>
+                            CREATIVE DESIGN</h4>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed
+                            nisi
+                            eleifend.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services__item services__item2--border">
+                        <div class="services__icon">
+                            <i class="icon-browser2"></i>
+                        </div>
+                        <h4>
+                            PROFESSIONAL CODE</h4>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed
+                            nisi
+                            eleifend.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services__item services__item3--border">
+                        <div class="services__icon">
+                            <i class="icon-laptop2"></i>
+                        </div>
+                        <h4>
+                            EASY CUSTOMIZE</h4>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed
+                            nisi
+                            eleifend.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services__item services__item4--border">
+                        <div class="services__icon">
+                            <i class="icon-basic_gear"></i>
+                        </div>
+                        <h4>
+                            24/7 SUPPORT</h4>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed
+                            nisi
+                            eleifend.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services__item services__item5--border">
+                        <div class="services__icon">
+                            <i class="icon-basic_pencil_ruler"></i>
+                        </div>
+                        <h4>BOOTSTRAP</h4>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed
+                            nisi
+                            eleifend.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services__item services__item6--border">
+                        <div class="services__icon">
+                            <i class="icon-basic_todolist_pencil"></i>
+                        </div>
+                        <h4>CLEAN CODE</h4>
+                        <p>Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed
+                            nisi
+                            eleifend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Services -->
 
     <!-- Slider Services -->
-    <section class="slider-services"></section>
+    <section class="slider-services">
+        <div id="carouselServices" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselServices" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselServices" data-slide-to="1"></li>
+                <li data-target="#carouselServices" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner container">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="./images/obj-1.png" alt="">
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="slider-services__content">
+                                <h4>REALLY GOOD AT WEB DESIGNING</h4>
+                                <p>
+                                    We are a team of multi-skilled and curious digital specialists who are always up
+                                    for a challenge and learning as fast as digital is changing. We are a team of
+                                    multi-skilled and curious digital specialists who are always up for a challenge.
+                                    Multi-skilled
+                                    and curious digital specialists.
+                                </p>
+                                <button class="btn--black-opacity">GET PRICE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="./images/obj-2.png" alt="">
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="slider-services__content">
+                                <h4>MASSIVR UI COLLECTION</h4>
+                                <p>
+                                    We are a team of multi-skilled and curious digital specialists who are always up
+                                    for a challenge and learning as fast as digital is changing. We are a team of
+                                    multi-skilled and curious digital specialists who are always up for a challenge.
+                                    Multi-skilled
+                                    and curious digital specialists.
+                                </p>
+                                <button class="btn--black-opacity">GET PRICE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="./images/obj-3.png" alt="">
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="slider-services__content">
+                                <h4>ESAY TO CUSTOMIZE</h4>
+                                <p>
+                                    We are a team of multi-skilled and curious digital specialists who are always up
+                                    for a challenge and learning as fast as digital is changing. We are a team of
+                                    multi-skilled and curious digital specialists who are always up for a challenge.
+                                    Multi-skilled
+                                    and curious digital specialists.
+                                </p>
+                                <button class="btn--black-opacity">GET PRICE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End Slider Services -->
 
     <!-- Feature -->
-    <section class="feature"></section>
+    <section class="feature container" id="features">
+        <div class="feature__heading text-center">
+            <h3>CORE FEATURE</h3>
+            <p>Phasellus fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam
+                pellente. Awesome sliders give you the opportunity to showcase your content.</p>
+        </div>
+        <div class="feature__content">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="feature__left">
+                        <img class="img-fluid" src="./images/tab-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="feature__right">
+                        <div class="feature__item">
+                            <div class="feature__number">
+                                01
+                            </div>
+                            <div class="feature__title">
+                                MEGA MENU
+                            </div>
+                            <div class="feature__desc">
+                                Fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Praesent
+                                sed nisi eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam pellente.
+                            </div>
+                        </div>
+                        <div class="feature__item">
+                            <div class="feature__number">
+                                02
+                            </div>
+                            <div class="feature__title">
+                                UNLIMITED PORTFOLIO GRID
+                            </div>
+                            <div class="feature__desc">
+                                Pellentesque eu quam sem, ac malesuada leo sem quam pellente. Fringilla augue at maximus
+                                vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.
+                            </div>
+                        </div>
+                        <div class="feature__item">
+                            <div class="feature__number">
+                                03
+                            </div>
+                            <div class="feature__title">
+                                HUGE SHORTCODE
+                            </div>
+                            <div class="feature__desc">
+                                Augue at maximus Pellentesque eu quam sem, ac malesuada leo sem quam pellente.
+                                vestibulum. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend.
+                            </div>
+                        </div>
+                        <div class="feature__button">
+                            <button class="btn--black">
+                                PURCHASE NOW
+                            </button>
+                            <button class="btn--white">
+                                VIEW ALL
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Feature -->
 
-    <!-- Number -->
-    <section class="number"></section>
-    <!-- End Number -->
+    <!-- Counter -->
+    <section class="counter">
+        <div class="counter__content container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="counter__item">
+                        <div class="counter__icon">
+                            <i class="icon-happy"></i>
+                        </div>
+                        <div class="counter__infor">
+                            <h1 class="countup">36</h1>
+                            <span>CLIENTS HANDLED</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="counter__item">
+                        <div class="counter__icon">
+                            <i class="icon-flag"></i>
+                        </div>
+                        <div class="counter__infor">
+                            <h1 class="countup">29</h1>
+                            <span>PROJECT COMPLETED</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="counter__item">
+                        <div class="counter__icon">
+                            <i class="icon-ribbon"></i>
+                        </div>
+                        <div class="counter__infor">
+                            <h1 class="countup">17</h1>
+                            <span>
+                                DESIGN AWARD WON</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Counter -->
 
     <!-- Blog -->
-    <section class="blog"></section>
+    <section class="blog container" id="blog">
+        <div class="blog__heading text-center">
+            <h3>BLOG</h3>
+            <p>Phasellus fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam
+                pellente. Awesome sliders give you the opportunity to showcase your content.</p>
+        </div>
+        <div class="blog__contain">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 blog__item">
+                    <div class="blog__content">
+                        <div class="blog__img blog__img--before">
+                            <img src="./images/p1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 blog__item">
+                    <div class="blog__content">
+                        <div class="blog__text">
+                            <h6>JULY 29, 2015</h6>
+                            <h4>MAURIS QUIS TVELIT LOREM. NAM NEQUE JUSTO SUSPENDISSE</h4>
+                            <div class="blog__tags">
+                                <ul>
+                                    <li>INTERFACE,</li>
+                                    <li>STANDARD,</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 blog__item">
+                    <div class="blog__content">
+                        <div class="blog__img blog__img--before">
+                            <img src="./images/p3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 blog__item">
+                    <div class="blog__content">
+                        <div class="blog__text">
+                            <h6>JULY 29, 2015</h6>
+                            <h4>QUIS VELIT LOREM. NAM A NEQUE CONSECTETUR COMMODO</h4>
+                            <div class="blog__tags">
+                                <ul>
+                                    <li>INTERFACE,</li>
+                                    <li>STANDARD,</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 blog__item">
+                    <div class="blog__content">
+                        <div class="blog__img blog__img--after">
+                            <img src="./images/p2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 blog__item">
+                    <div class="blog__content">
+                        <div class="blog__text">
+                            <h6>JULY 29, 2015</h6>
+                            <h4>COMMODO VELIT LOREM. NAM A NEQUE CONSECTETUR QUIS</h4>
+                            <div class="blog__tags">
+                                <ul>
+                                    <li>INTERFACE,</li>
+                                    <li>STANDARD,</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__view-all col-12">
+                    <span>VIEW ALL BLOGS <i class="icon-arrows_slim_right"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End Blog -->
 
     <!-- Slider Feedback -->
-    <section class="slider-feedback"></section>
+    <section class="slider-feedback">
+        <div id="sliderFeedbackId" class="carousel slide text-center" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#sliderFeedbackId" data-slide-to="0" class="active"></li>
+                <li data-target="#sliderFeedbackId" data-slide-to="1"></li>
+                <li data-target="#sliderFeedbackId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner container" role="listbox">
+                <div class="carousel-item active">
+                    <div class="slider-feedback__avatar">
+                        <img src="./images/event_avatar1.jpg" alt="">
+                    </div>
+                    <div class="slider-feedback__details">
+                        <div class="slider-feedback__desc">
+                            <p>Vestibulum varius fermentum risus vitae lacinia neque auctor nec. Nunc ac rutrum nulla.
+                                Nulla maximus dolor in quam euismod ac viverra libero aliquet.</p>
+                        </div>
+                        <div class="slider-feedback__infor">
+                            <p>- KEVIN PAIGE -</p>
+                            <span>ABC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-feedback__avatar">
+                        <img src="./images/event_avatar3.jpg" alt="">
+                    </div>
+                    <div class="slider-feedback__details">
+                        <div class="slider-feedback__desc">
+                            <p>Vestibulum varius fermentum risus vitae lacinia neque auctor nec. Nunc ac rutrum nulla.
+                                Nulla maximus dolor in quam euismod ac viverra libero aliquet.</p>
+                        </div>
+                        <div class="slider-feedback__infor">
+                            <p>- JOHN DOE -</p>
+                            <span>HEAD OF MARKETING .TB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-feedback__avatar">
+                        <img src="./images/event_avatar1.jpg" alt="">
+                    </div>
+                    <div class="slider-feedback__details">
+                        <div class="slider-feedback__desc">
+                            <p>Vestibulum varius fermentum risus vitae lacinia neque auctor nec. Nunc ac rutrum nulla.
+                                Nulla maximus dolor in quam euismod ac viverra libero aliquet.</p>
+                        </div>
+                        <div class="slider-feedback__infor">
+                            <p>- KEVIN PAIGE -</p>
+                            <span>LINDA SMITH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End Slider Feedback -->
 
     <!-- Video -->
-    <section class="video"></section>
+    <section class="video container">
+        <div class="video__heading text-center">
+            <h3>WATCH VIDEO DEMO</h3>
+            <p>Phasellus fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam
+                pellente. Awesome sliders give you the opportunity to showcase your content.</p>
+        </div>
+        <div class="video__content text-center">
+            <iframe width="550" height="280" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div>
+    </section>
     <!-- End Video -->
 
     <!-- News -->
-    <section class="news"></section>
+    <section class="news">
+        <div class="news__contain">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 news__item">
+                    <div class="news__content">
+                        <div class="news__img">
+                            <img src="./images/p10.jpg" alt="">
+                        </div>
+                        <div class="news__details">
+                            <h6>NEWS</h6>
+                            <h4>SOME SERVICES THAT WE PROVIDE OCCATIONALY</h4>
+                            <p>Phasellus fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada
+                                leo sem quam pellente. Awesome sliders give you the opportunity to showcase your
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 news__item">
+                    <div class="news__content">
+                        <div class="news__img">
+                            <img src="./images/p11.jpg" alt="">
+                        </div>
+                        <div class="news__details">
+                            <h6>NEWS</h6>
+                            <h4>EDITORS NOW USE AS THEIR DEFAULT MODEL</h4>
+                            <p>Fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem
+                                quam pellente. Awesome sliders give you the opportunity to showcase your content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End News -->
 
     <!-- Price -->
-    <section class="price"></section>
+    <section class="price" id="price">
+        <div class="price__heading text-center">
+            <h3>PRICE TABLE</h3>
+            <p>Phasellus fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam
+                pellente. Awesome sliders give you the opportunity to showcase your content.</p>
+        </div>
+        <div class="row price__purchase">
+            <div class="col-lg-4 col-md-12">
+                <div class="price__item">
+                    <div class="price__content">
+                        <div class="price__title">
+                            <h5>STARTER</h5>
+                        </div>
+                        <div class="price__dollar">
+                            $ 29<span>.00</span>
+                        </div>
+                        <div class="price__duration">
+                            <h6>PER MONTH</h6>
+                        </div>
+                        <div class="price__details">
+                            <p>24/7 Tech Suport
+                                Lorem ipsum dolor.
+                                ipsum dolor sit amet.
+                                dolor sit amet.</p>
+                        </div>
+                        <div class="price__button">
+                            <button class="btn--white btn--white-border">PURCHASE THIS PLAN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="price__item price__item--black">
+                    <div class="price__content">
+                        <div class="price__title">
+                            <h5 class="price__title--yellow price__title--after-gray">PREMIUM</h5>
+                        </div>
+                        <div class="price__dollar price__dollar--white">
+                            $ 49<span>.00</span>
+                        </div>
+                        <div class="price__duration">
+                            <h6 class="price__duration--white price__duration--after-gray">PER MONTH</h6>
+                        </div>
+                        <div class="price__details">
+                            <p class="price__details--gray">24/7 Tech Suport
+                                Lorem ipsum dolor.
+                                ipsum dolor sit amet.
+                                dolor sit amet.</p>
+                        </div>
+                        <div class="price__button">
+                            <button class="btn--white btn--white-hover">PURCHASE THIS PLAN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="price__item">
+                    <div class="price__content">
+                        <div class="price__title">
+                            <h5>ENTERPRISE</h5>
+                        </div>
+                        <div class="price__dollar">
+                            $ 79<span>.00</span>
+                        </div>
+                        <div class="price__duration">
+                            <h6>PER MONTH</h6>
+                        </div>
+                        <div class="price__details">
+                            <p>24/7 Tech Suport
+                                Lorem ipsum dolor.
+                                ipsum dolor sit amet.
+                                dolor sit amet.</p>
+                        </div>
+                        <div class="price__button">
+                            <button class="btn--white btn--white-border">PURCHASE THIS PLAN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="price__subcribe">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="price__subcribe-heading">
+                        <h3>DON’T WANNA PURCHASE NOW?</h3>
+                        <p>subscribe to get in touch</p>
+                    </div>
+                    <div class="price__subcribe-form">
+                        <input type="text" name="" id="" placeholder="Enter your email">
+                        <button class="btn--black">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
     <!-- End Price -->
 
-    <!-- Email -->
-    <section class="email"></section>
-    <!-- End Email -->
-
     <!-- Clients -->
-    <section class="clients"></section>
+    <section class="clients container">
+        <div class="clients__heading text-center">
+            <h3>OUR CLIENTS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut explicabo iusto quaerat</p>
+        </div>
+        <div class="owl-carousel owl-theme clients__carousel">
+            <div class="clients__item">
+                <img src="./images/c-1.png" alt="">
+            </div>
+            <div class="clients__item">
+                <img src="./images/c-2.png" alt="">
+            </div>
+            <div class="clients__item">
+                <img src="./images/c-3.png" alt="">
+            </div>
+            <div class="clients__item">
+                <img src="./images/c-4.png" alt="">
+            </div>
+            <div class="clients__item">
+                <img src="./images/c-5.png" alt="">
+            </div>
+            <div class="clients__item">
+                <img src="./images/c-6.png" alt="">
+            </div>
+            <div class="clients__item">
+                <img src="./images/c-7.png" alt="">
+            </div>
+            <div class="clients__item">
+                <img src="./images/c-8.png" alt="">
+            </div>
+        </div>
+    </section>
     <!-- End Clients -->
 
     <!-- Contact -->
-    <section class="contact"></section>
+    <section class="contact" id="contact">
+        <div class="container text-center">
+            <div class="contact__contain">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="icon-map"></i>
+                            </div>
+                            <div class="contact__infor">
+                                <h4>
+                                    LOCATION</h4>
+                                <p>Upper Level, Overseas Passenger
+                                    Terminal, The Rocks, Sydney 2000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="icon-mobile"></i>
+                            </div>
+                            <div class="contact__infor">
+                                <h4>CALL US</h4>
+                                <p>Any time. We are open 24/7
+                                    +1 2345-67-89000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class="icon-envelope"></i>
+                            </div>
+                            <div class="contact__infor">
+                                <h4>MAIL US</h4>
+                                <p>get support via email
+                                    mail@massivetheme.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End Contact -->
 
     <!-- Message -->
-    <section class="message"></section>
+    <section class="message">
+        <div class="container">
+            <div class="message__heading text-center">
+                <h3>DROP US A LINE</h3>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+                    placeat facere possimus. Nam libero tempore</p>
+            </div>
+            <div class="message__form">
+                <div class="row">
+                    <div class="col-lg-6 col-mg-12">
+                        <div class="message__left">
+                            <input type="text" name="" id="messageName" placeholder="Name *">
+                            <input type="email" name="" id="messageEmail" placeholder="Email *">
+                            <input type="number" name="" id="messagePhone" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-mg-12">
+                        <div class="message__right">
+                            <textarea name="" id="messageComment" maxlength="400" placeholder="Comment"></textarea>
+                            <button class="btn--black">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End Message -->
 
     <!-- Footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer__heading">
+                <div class="footer__logo">
+                    <img src="./images/logo.png" alt="">
+                    <h6>THE ULTIMATE THEME WITH MASSIVE COLLECTION</h6>
+                </div>
+            </div>
+            <div class="footer__socials">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-dribbble"></i>
+                <i class="fa fa-google-plus"></i>
+                <i class="fa fa-behance"></i>
+            </div>
+            <div class="footer__copyright">
+                <h6>© MASSIVE 2014.</h6>
+                <span>BUILDING YOUR SITE WITH LOTS OF FUN</span>
+            </div>
+        </div>
+    </footer>
     <!-- End Footer -->
+
+    <!-- Button go top top -->
+    <a class="btn--go-to-top" href="#">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- End button go top top -->
 
     <!-- jQuery first, then Waypoint, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -531,6 +1670,14 @@
 
     <!-- Lightbox js -->
     <script src="./js/lightbox.min.js"></script>
+
+    <!-- Count up -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+    <script src="./js/jquery.countup.js"></script>
+
+    <!-- Owl carousel -->
+    <script src="./js/owl.carousel.min.js"></script>
 
     <!-- Main js -->
     <script src="./js/index.js"></script>

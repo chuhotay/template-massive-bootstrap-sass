@@ -1,0 +1,22 @@
+.clients {
+  .clients__heading {
+    margin-bottom: $mg-6;
+    h3 {
+      letter-spacing: $ls-0;
+    }
+    p {
+      letter-spacing: $ls-0;
+      width: 70%;
+      margin: $mg-5 auto;
+      color: $color-gray;
+      @include reponds-to("large") {
+        width: 80%;
+      }
+    }
+  }
+  .clients__carousel {
+    .clients__item {
+      margin: $mg-4;
+    }
+  }
+}

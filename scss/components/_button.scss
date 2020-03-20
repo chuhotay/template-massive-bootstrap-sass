@@ -2,12 +2,13 @@
     color: $color-white;
     background-color: $color-black;
     padding: $pd-3 $pd-5;
-    border: transparent;
+    border-color: $color-black;
     letter-spacing: $ls-0;
     transition: all .5s;
     border-radius: 4px;
     &:hover {
         background-color: $color-yellow;
+        border-color: $color-yellow;
     }
 }
 
@@ -28,12 +29,31 @@
     color: $color-black;
     background-color: $color-white;
     padding: $pd-3 $pd-5;
-    border: transparent;
+    border: 1px solid black;
     letter-spacing: $ls-0;
     border-radius: 4px;
     transition: all .5s;
     &:hover {
         background-color: $color-black;
         color: white;
+    }
+}
+
+.btn--go-to-top {
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+    text-align: center;
+    &:hover {
+        background-color: $color-yellow;
+    }
+    i {
+        color: $color-white;
+
     }
 }

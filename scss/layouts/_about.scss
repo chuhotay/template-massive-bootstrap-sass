@@ -1,6 +1,6 @@
 .about {
   margin-top: $mg-6;
-  @include reponds-to('large') {
+  @include reponds-to("large") {
     margin-top: $mg-0 - 90;
   }
   .about__heading {
@@ -12,10 +12,10 @@
       width: 60%;
       margin: $mg-5 auto;
       color: $color-gray;
-      @include reponds-to('large') {
+      @include reponds-to("large") {
         width: 72%;
       }
-      @include reponds-to('medium') {
+      @include reponds-to("medium") {
         width: 78%;
       }
     }
@@ -27,26 +27,26 @@
       margin: 0 $mg-2;
       padding: $pd-6 - 40 $pd-4 $pd-5 $pd-5;
       position: relative;
+      transition: all .5s;
       &:hover {
-        i {
+        .about__icon {
           background-color: $color-yellow;
         }
       }
-
-      i {
-        background-color: #222222;
-        color: $color-white;
-        width: 60px;
-        height: 60px;
-        border-radius: 4px;
-        text-align: center;
-        line-height: 60px;
-        box-shadow: 0 0 0 10px #fff;
-        font-size: 30px;
-        position: absolute;
-        top: -30px;
-        left: 30px;
-        transition: all 0.4s;
+      .about__icon {
+          background-color: #222222;
+          color: $color-white;
+          width: 60px;
+          height: 60px;
+          border-radius: 4px;
+          text-align: center;
+          line-height: 60px;
+          box-shadow: 0 0 0 10px #fff;
+          font-size: 30px;
+          position: absolute;
+          top: -30px;
+          left: 30px;
+          transition: all 0.4s;
       }
 
       h4 {
@@ -58,7 +58,7 @@
         color: $color-gray;
         letter-spacing: 1px;
       }
-      @include reponds-to('large') {
+      @include reponds-to("large") {
         margin: $mg-5 0;
       }
     }
